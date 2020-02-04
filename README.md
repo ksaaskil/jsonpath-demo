@@ -2,7 +2,11 @@
 
 Demo of using [python-jsonpath-rw](https://github.com/kennknowles/python-jsonpath-rw) to access properties of an OpenAPI JSON object in [petstore.json](./petstore.json).
 
-## Examples
+## Python demo
+
+See [demo.py](./demo.py).
+
+## Command-line examples
 
 Get a single value at path `info.title`:
 
