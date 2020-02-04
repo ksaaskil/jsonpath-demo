@@ -18,7 +18,7 @@ Swagger Petstore
 Get multiple values with `..` syntax:
 
 ```bash
-$ jsonpath.py 'servers..url' petstore.json
+$ jsonpath.py 'servers[*].url' petstore.json
 http://petstore.swagger.io/v1
 https://petstore.swagger.io/v1
 ```
